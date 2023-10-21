@@ -1,6 +1,5 @@
 
 
-
 <!-- Descripcion -->
 <p>La empresa safe clothing desea realizar un backend que le permita llevar el control, registro y seguimiento de la producción de prendas de seguridad industrial, la empresa cuenta con diferentes tipos de prendas entre las cuales están las prendas resistentes al fuego (Ignifugas), resistentes a altos voltajes (Arco eléctrico). La empresa lo contrata a usted como experto backend para que cumpla con los siguientes requerimientos de desarrollo</p>
 
@@ -37,20 +36,21 @@ mg src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a4
 
 <!-- Seccion 3 -->
 ### Realizar las siguientes consultas: 
-<h4>Grupo A:</h4>
-- Listar los insumos que pertenecen a una prenda especifica. El usuario debe ingresar el código de la prenda. ❌ <br>
-- Listar los Insumos que son vendidos por un determinado proveedor cuyo tipo de persona sea Persona Jurídica. El usuario debe ingresar el Nit de proveedor. ❌ <br>
-- Listar todas las ordenes de producción cuyo estado se en proceso. ❌ <br>
-- Listar los empleados por un cargo especifico. Los cargos que se encuentran en la empresa son: Auxiliar de Bodega, Jefe de Producción, Corte, Jefe de bodega, Secretaria, Jefe de IT. ❌ <br>
-- Listar las ordenes de producción que pertenecen a un cliente especifico. El usuario debe ingresar el IdCliente y debe obtener la siguiente información: ❌<br>
-- IdCliente, Nombre, Municipio donde se encuentra ubicado. <br>
-- Nro de orden de producción, fecha y el estado de la orden de producción, se debe mostrar la descripción del estado, código del estado, valor total de la orden de producción. <br>
-- Detalle de orden: Nombre de la prenda, Código de la prenda, Cantidad, Valor total en pesos y en dólares. <br>
-- Listar las ventas realizadas por un empleado especifico. El usuario debe ingresar el Id del empleado y mostrar la siguiente información ❌ <br>
-- Id Empleado <br>
-- Nombre del empleado <br>
-- Fecturas : Nro Factura, fecha y total de la factura. <br>
-- Listar los productos y tallas del inventario. La consulta debe mostrar el id del inventario, nombre del producto, tallas y cantidad de cada talla. ❌ <br>
+<h4>Grupo B:</h4>
+- Listar las prendas de una orden de producción cuyo estado sea en producción. El usuario debe ingresar el número de orden de producción. ❌ <br>
+-Listar las prendas agrupadas por el tipo de protección. ❌ <br>
+- Listar las ordenes de producción que pertenecen a un cliente especifico. El usuario debe ingresar el IdCliente y debe obtener la siguiente información:
+
+1. IdCliente, Nombre, Municipio donde se encuentra ubicado.
+2. Nro de orden de producción, fecha y el estado de la orden de producción (Se debe mostrar la descripción del estado, código del estado, valor total de la orden de producción.
+3. Detalle de orden: Nombre de la prenda, Código de la prenda, Cantidad, Valor total en pesos y en dólares. ❌ <br>
+- Listar los insumos de una prenda y calcular cuanto cuesta producir una prenda especifica. El costo de la prenda dependerá de la cantidad de insumos que sean necesarios para la producción de la misma. El usuario debe ingresar en Id de la prenda. ❌ <br>
+- Listar los insumos que son vendidos por un determinado proveedor. El usuario debe ingresar el Nit de proveedor. ❌<br>
+- Listar las ventas realizadas por un empleado especifico. El usuario debe ingresar el Id del empleado y mostrar la siguiente información.
+
+1. Id Empleado
+2. Nombre del empleado
+3. Fecturas : Nro Factura, fecha y total de la factura. ❌ <br>
 
 <!-- Seccion 4 -->
 ###  Dependencias o paquetes Nuget utilizados 
