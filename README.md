@@ -1,6 +1,7 @@
 <!-- Encabezado -->
 <img align="center
-" src="https://img.freepik.com/foto-gratis/tienda-ropa-tienda-ropa-perchas-tienda-boutique-moderna_1150-8886.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697760000&semt=ais" alt="Safe Clothing" width="auto" height="auto">
+" src="https://img.freepik.com/foto-gratis/tienda-ropa-tienda-ropa-perchas-tienda-boutique-moderna_1150-8886.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697760000&semt=ais
+" alt="Safe Clothing" width="auto" height="auto">
 <h1 align="center"><img width="32" height="32" src="https://img.icons8.com/3d-fluency/38/jumper.png" alt="Safe Clothing"/> <b>Safe Clothing</b></h1>
 <br>
 
