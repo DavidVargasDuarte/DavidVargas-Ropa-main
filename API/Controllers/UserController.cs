@@ -50,7 +50,7 @@ public class UserController : ControllerBase
         return mapper.Map<UserDto>(data);
     }
 
-    [HttpGet("Pagination")]
+    [HttpGet("Paagination")]
     [Authorize(Roles = "Addministrador")]
     [MapToApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
