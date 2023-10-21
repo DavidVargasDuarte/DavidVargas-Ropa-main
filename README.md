@@ -22,17 +22,16 @@
   ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white)
   
 </p>
-<
-mg src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
+
 
 <!-- Seccion 2 -->
 ###  Requerimientos funcionales <br>
-- Implementar restricción de peticiones haciendo uso de limitaciones de peticiones por IP. ❌ <br>
-- Implementar protección a los endPoints haciendo uso de JWT y roles de usuario. ❌ <br>
-- Implementar esquema de versionado de Api que facilite el proceso de implementación de nuevos endpoints sin afectar el funcionamiento de las aplicaciones externas que consumen los servicios del Api. ❌ <br>
-- Se debe permitir realizar procesos de creacion, edicion, eliminacion y listado de informacion de cada una de las tablas. ❌ <br>
-- Implementar endpoints que permitan realizar el proceso de CRUD en cada uno de los controladores del backend. ❌ <br>
-- Debido al gran volumen de información que la empresa procesa diariamente se requiere que los endpoints encargados de consultar el contenido de las tablas implementen sistema de paginación. ❌ <br>
+- Implementar restricción de peticiones haciendo uso de limitaciones de peticiones por IP.  <br>
+- Implementar protección a los endPoints haciendo uso de JWT y roles de usuario. <br>
+- Implementar esquema de versionado de Api que facilite el proceso de implementación de nuevos endpoints sin afectar el funcionamiento de las aplicaciones externas que consumen los servicios del Api.  <br>
+- Se debe permitir realizar procesos de creacion, edicion, eliminacion y listado de informacion de cada una de las tablas.  <br>
+- Implementar endpoints que permitan realizar el proceso de CRUD en cada uno de los controladores del backend.  <br>
+- Debido al gran volumen de información que la empresa procesa diariamente se requiere que los endpoints encargados de consultar el contenido de las tablas implementen sistema de paginación.  <br>
 
 <!-- Seccion 3 -->
 ### Realizar las siguientes consultas: 
