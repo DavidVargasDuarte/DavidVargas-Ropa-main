@@ -5,7 +5,7 @@
 <p>La empresa safe clothing desea realizar un backend que le permita llevar el control, registro y seguimiento de la producción de prendas de seguridad industrial, la empresa cuenta con diferentes tipos de prendas entre las cuales están las prendas resistentes al fuego (Ignifugas), resistentes a altos voltajes (Arco eléctrico)!</p>
 
 <!-- Seccion 1 -->
-## 🧑🏻‍💻 Tecnologias 
+##  Tecnologias 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
@@ -26,33 +26,33 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 <!-- Seccion 2 -->
-### 👻 Requerimientos funcionales 👻<br>
-🔰 Implementar restricción de peticiones haciendo uso de limitaciones de peticiones por IP. ❌ <br>
-🔰 Implementar protección a los endPoints haciendo uso de JWT y roles de usuario. ❌ <br>
-🔰 Implementar esquema de versionado de Api que facilite el proceso de implementación de nuevos endpoints sin afectar el funcionamiento de las aplicaciones externas que consumen los servicios del Api. ❌ <br>
-🔰 Se debe permitir realizar procesos de creacion, edicion, eliminacion y listado de informacion de cada una de las tablas. ❌ <br>
-🔰 Implementar endpoints que permitan realizar el proceso de CRUD en cada uno de los controladores del backend. ❌ <br>
-🔰 Debido al gran volumen de información que la empresa procesa diariamente se requiere que los endpoints encargados de consultar el contenido de las tablas implementen sistema de paginación. ❌ <br>
+###  Requerimientos funcionales <br>
+- Implementar restricción de peticiones haciendo uso de limitaciones de peticiones por IP. ❌ <br>
+- Implementar protección a los endPoints haciendo uso de JWT y roles de usuario. ❌ <br>
+- Implementar esquema de versionado de Api que facilite el proceso de implementación de nuevos endpoints sin afectar el funcionamiento de las aplicaciones externas que consumen los servicios del Api. ❌ <br>
+- Se debe permitir realizar procesos de creacion, edicion, eliminacion y listado de informacion de cada una de las tablas. ❌ <br>
+- Implementar endpoints que permitan realizar el proceso de CRUD en cada uno de los controladores del backend. ❌ <br>
+- Debido al gran volumen de información que la empresa procesa diariamente se requiere que los endpoints encargados de consultar el contenido de las tablas implementen sistema de paginación. ❌ <br>
 
 <!-- Seccion 3 -->
-### 👨‍💻 Realizar las siguientes consultas: 👨‍💻
+### Realizar las siguientes consultas: 
 <h4>Grupo A:</h4>
-🔹 Listar los insumos que pertenecen a una prenda especifica. El usuario debe ingresar el código de la prenda. ❌ <br>
-🔹 Listar los Insumos que son vendidos por un determinado proveedor cuyo tipo de persona sea Persona Jurídica. El usuario debe ingresar el Nit de proveedor. ❌ <br>
-🔹 Listar todas las ordenes de producción cuyo estado se en proceso. ❌ <br>
-🔹 Listar los empleados por un cargo especifico. Los cargos que se encuentran en la empresa son: Auxiliar de Bodega, Jefe de Producción, Corte, Jefe de bodega, Secretaria, Jefe de IT. ❌ <br>
-🔹 Listar las ordenes de producción que pertenecen a un cliente especifico. El usuario debe ingresar el IdCliente y debe obtener la siguiente información: ❌<br>
-🔸 IdCliente, Nombre, Municipio donde se encuentra ubicado. <br>
-🔸 Nro de orden de producción, fecha y el estado de la orden de producción, se debe mostrar la descripción del estado, código del estado, valor total de la orden de producción. <br>
-🔸 Detalle de orden: Nombre de la prenda, Código de la prenda, Cantidad, Valor total en pesos y en dólares. <br>
-🔹 Listar las ventas realizadas por un empleado especifico. El usuario debe ingresar el Id del empleado y mostrar la siguiente información ❌ <br>
-🔸 Id Empleado <br>
-🔸 Nombre del empleado <br>
-🔸 Fecturas : Nro Factura, fecha y total de la factura. <br>
-🔹 Listar los productos y tallas del inventario. La consulta debe mostrar el id del inventario, nombre del producto, tallas y cantidad de cada talla. ❌ <br>
+- Listar los insumos que pertenecen a una prenda especifica. El usuario debe ingresar el código de la prenda. ❌ <br>
+- Listar los Insumos que son vendidos por un determinado proveedor cuyo tipo de persona sea Persona Jurídica. El usuario debe ingresar el Nit de proveedor. ❌ <br>
+- Listar todas las ordenes de producción cuyo estado se en proceso. ❌ <br>
+- Listar los empleados por un cargo especifico. Los cargos que se encuentran en la empresa son: Auxiliar de Bodega, Jefe de Producción, Corte, Jefe de bodega, Secretaria, Jefe de IT. ❌ <br>
+- Listar las ordenes de producción que pertenecen a un cliente especifico. El usuario debe ingresar el IdCliente y debe obtener la siguiente información: ❌<br>
+- IdCliente, Nombre, Municipio donde se encuentra ubicado. <br>
+- Nro de orden de producción, fecha y el estado de la orden de producción, se debe mostrar la descripción del estado, código del estado, valor total de la orden de producción. <br>
+- Detalle de orden: Nombre de la prenda, Código de la prenda, Cantidad, Valor total en pesos y en dólares. <br>
+- Listar las ventas realizadas por un empleado especifico. El usuario debe ingresar el Id del empleado y mostrar la siguiente información ❌ <br>
+- Id Empleado <br>
+- Nombre del empleado <br>
+- Fecturas : Nro Factura, fecha y total de la factura. <br>
+- Listar los productos y tallas del inventario. La consulta debe mostrar el id del inventario, nombre del producto, tallas y cantidad de cada talla. ❌ <br>
 
 <!-- Seccion 4 -->
-### 📦 Dependencias o paquetes Nuget utilizados 📦
+###  Dependencias o paquetes Nuget utilizados 
 <h4>API</h4>
 - Serilog.AspNetCore - v7.0.0 <br>
 - AspNetCoreRateLimit - v5.0.0 <br>
@@ -71,6 +71,3 @@
 - CsvHelper - v30.0.1 <br>
 - Microsoft.EntityFrameworkCore - v7.0.12 <br>
 - Pomelo.EntityFrameworkCore.Mysql - v7.0.11 <br>
-
-### 💰 You can help me by Donating 💰
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/losadabolivar@gmail.com) 
