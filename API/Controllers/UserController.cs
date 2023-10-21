@@ -51,7 +51,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet("Pagination")]
-    [Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Addministrador")]
     [MapToApiVersion("1.1")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
