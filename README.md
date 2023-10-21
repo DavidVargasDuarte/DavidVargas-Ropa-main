@@ -1,8 +1,4 @@
-<!-- Encabezado -->
-<img align="center
-" src="https://ph-test-11.slatic.net/shop/2cbaa6241a94361c1969ff782ba2a35b.jpeg" alt="Safe Clothing" width="auto" height="auto">
-<h1 align="center"><img width="32" height="32" src="https://img.icons8.com/3d-fluency/38/jumper.png" alt="Safe Clothing"/> <b>Safe Clothing</b></h1>
-<br>
+
 
 <!-- Descripcion -->
 <p>La empresa safe clothing desea realizar un backend que le permita llevar el control, registro y seguimiento de la producción de prendas de seguridad industrial, la empresa cuenta con diferentes tipos de prendas entre las cuales están las prendas resistentes al fuego (Ignifugas), resistentes a altos voltajes (Arco eléctrico)!</p>
